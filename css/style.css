@@ -1,0 +1,243 @@
+@import url(bootstrap.scss);
+body {
+  margin: 0px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.top-nav {
+  background-color: #C4C4C4;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0%;
+  margin: auto;
+  padding: auto;
+}
+.top-nav p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 20px;
+}
+.top-nav p img {
+  margin-right: 20px;
+}
+.top-nav ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-left: auto;
+}
+@media (max-width: 500px) {
+  .top-nav ul {
+    display: none;
+  }
+}
+.top-nav ul li a .fa-brands {
+  margin: 10px;
+  max-width: 100%;
+}
+
+.botm-nav {
+  background-color: #102039;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (max-width: 500px) {
+  .botm-nav .text-list {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .botm-nav .logo {
+    text-align: center;
+  }
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card {
+  padding: 0px;
+}
+.card .card-body {
+  height: 70px;
+}
+.card .card-body a img {
+  width: 12rem;
+  margin-right: 5px;
+}
+
+hr {
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.scenery .row a img {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+.section3 div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  height: 500px;
+  background-color: #102039;
+}
+.section3 div h3 {
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.section3 div img {
+  height: 400px;
+  width: 600px;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+.section3 .column-images {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 100px;
+     -moz-column-gap: 100px;
+          column-gap: 100px;
+}
+.section3 .column-images .images {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  height: auto;
+  width: 150px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section3 .column-images .span {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-left: 20px;
+}
+
+.section4 .row img {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.section6 {
+  background-color: #102039;
+}
+.section6 .row footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.section6 .row footer .div1 img {
+  margin: 20px;
+}
+.section6 .row footer .div1 p {
+  width: 300px;
+  color: white;
+  text-align: center;
+}
+.section6 .row footer .div2 {
+  margin-top: 20px;
+}
+.section6 .row footer .div2 h3 {
+  color: white;
+}
+.section6 .row footer .div2 span {
+  color: white;
+  text-align: center;
+}
+.section6 .row footer .div2 p {
+  width: 250px;
+  color: white;
+}
+.section6 .row footer .div2 ul {
+  list-style: none;
+}
+.section6 .row footer .div2 ul li {
+  display: inline;
+  margin: 4px;
+}
+.section6 .row footer .div3 {
+  margin-top: 20px;
+}
+.section6 .row footer .div3 h3 {
+  color: white;
+}
+.section6 .row footer .div3 p {
+  color: white;
+}
+.section6 .row footer .div3 .button {
+  background-color: red;
+  color: white;
+}
+
+.section7 {
+  width: 100%;
+  background-color: #979595;
+  height: 43px;
+}
+.section7 p {
+  text-align: center;
+  color: white;
+}

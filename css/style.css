@@ -183,6 +183,7 @@ hr {
   background-color: #102039;
 }
 .section6 .row footer {
+  gap: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -213,6 +214,9 @@ hr {
 }
 .section6 .row footer .div2 ul {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .section6 .row footer .div2 ul li {
   display: inline;

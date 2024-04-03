@@ -127,9 +127,9 @@ hr {
   margin-top: 20px;
 }
 .section3 div img {
-  height: 400px;
+  height: 300px;
   width: 600px;
-  margin-left: 60px;
+  margin-left: 30px;
   margin-top: 40px;
 }
 .section3 .column-images {
@@ -153,7 +153,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 30px;
   height: auto;
-  width: 150px;
+  width: 100px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
